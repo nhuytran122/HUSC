@@ -1,0 +1,303 @@
+* {    
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --container-full-width: 100%;
+    --container-normal-width: 970px;
+    --bg-primary-color:#011C38;
+
+}
+
+/* div{
+    border: #000 solid 0.5px;
+} */
+
+.row{
+    margin-right: 20px;
+    
+}
+
+.col{
+    float: left;
+}
+
+.col-half{
+    width: 50%;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+.col-third{
+    width: 33.333%;
+}
+
+.pdt16 {
+    padding-top: 16px;
+}
+
+.magt25 {
+    margin-top: 25px;
+}
+
+.magt50 {
+    margin-top: 50px;
+}
+
+.pdlr{
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+
+.header{
+    background-image: url(../images/background.png);
+    color: #fff;
+    height: 40px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.header-nav{
+    height: 120px;
+}
+
+.header .map li {
+    list-style-type: none;
+    float: right;
+    padding: 0 10px;
+    line-height: 40px;    
+}
+
+.header-nav .map li {
+    line-height: 120px;
+}
+
+.header .map li:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.header .map .phone-numb,
+.header .map .sch-name{
+    float: left;
+}
+
+.header-nav {
+    border-top: #aaa solid 0.2px;
+}
+
+.header .map .sch-name{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.connect{
+    width: 100%;
+    background-color: var(--bg-primary-color);
+    height: 321px;
+    color: #fff;
+}
+
+.connect img{
+    width: 100%;
+    height: 320px;
+}
+
+.contact-form{
+    font-size: 25px;
+}
+
+.contact-form .contact-header{
+    padding: 20px;
+}
+
+.contact-form .form-control{
+    width: 100%;
+    padding: 12px;
+    background-color: #273c75;
+    border: none;
+    /* margin-left: 60px */
+    margin-right: 0;
+}
+
+::-webkit-input-placeholder { /* Edge */
+    color: #fff;
+    
+  }
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #fff;
+  }
+
+::placeholder {
+    color: #fff;
+}
+
+.contact-form .btn-send-inf{
+    padding: 10px;
+    float: right;
+    margin-right: 35px;
+    border:  orangered 2px solid;
+    color: orangered;
+    font-weight: bold;   
+}
+
+.content {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 350px;
+    color: #273c75;
+}
+
+.title{
+    font-size: 25px;
+}
+
+.content ul{
+    padding-bottom: 16px;
+    text-align: justify;
+    list-style-type: none;
+}
+
+.content .date {
+    float: left;    
+}
+
+.content ion-icon{
+    color: #ccc;
+    font-size: 20px;
+}
+
+.content .events-ctn .img-date,
+.album .person img{
+    position: absolute;
+}
+
+.events-ctn{
+    padding-top: 20px;
+    height: 100px;
+    padding-right: 110px;
+    
+}
+
+.events-ctn p,
+.album .person p  {
+    position: relative;
+    left: 90px;
+    
+    /* text-align: justify; */
+}
+
+.events-ctn .place,
+.album .person .clss {
+    color: #aaa;
+}
+
+.content .about-us{
+    text-align: justify;
+    line-height: 24px;
+}
+
+
+.school{
+    background-color: var(--bg-primary-color);
+    height: 300px;
+    color: #fff;
+    padding-left: 60px;
+}
+
+.school li {
+    line-height: 35px;
+}
+
+.school .title{
+    padding: 25px 0px;
+}
+
+
+.album{
+    height: 320px;
+}
+
+.album .file {
+    width: 33.33%;
+}
+
+.album .pictures {
+    width: 66.66%;
+}
+
+.album .pictures .img{
+    margin-top: 25px;
+}
+
+.album img{
+    width: 80px;
+}
+
+.album .name {
+    color: #273c75;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.album .person{
+    width: 350px;
+    height: 100px;
+    margin-top: 20px;
+    padding: 10px;
+    border: #ccc 1px solid;
+}
+
+.album .person p {
+    line-height: 30px;
+}
+
+.album .pictures img {
+    width: calc(96% / 7);
+}
+
+.footer {
+    background-image: url(../images/background.png);
+    height: 410px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.footer .infor-sch{
+    text-align: justify;
+    line-height: 28px;
+}
+
+.footer li{
+    line-height: 30px;
+}
+
+.footer .list{
+    list-style-type: none;
+}
+
+.footer1 .end{
+    background-color: var(--bg-primary-color);
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
